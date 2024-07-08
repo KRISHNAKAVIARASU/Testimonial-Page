@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(200, 195, 206);
+}
+.container,.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+   padding: 15PX;
+    width: 900px;
+    height: 300px;
+    border-radius: 4px;
+}
+.imgdiv{
+        margin:50px;
+        max-width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(20, 18, 58);
+        border-radius: 5px;
+        
+}
+p{
+    color: white;
+    width:900PX;
+    height: 300PX;
+    padding: 15PX;
+    align-items: center;
+    text-align: justify;
+}
